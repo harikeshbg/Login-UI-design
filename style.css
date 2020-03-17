@@ -31,6 +31,10 @@ body
   text-transform: uppercase;
   letter-spacing: 4px;
 }
+.form h2:hover
+{
+  color: #2196f3;
+}
 .form .input
 {
   text-align: left;
@@ -61,6 +65,10 @@ body
   color: #03a9f4;
   box-shadow: inset -2px -2px 6px rgba(255,255,255,0.1),
               inset 2px 2px 6px rgba(0,0,0,0.8);
+}
+.form .input .inputBox input:hover
+{
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
 .form .input .inputBox input[type="submit"]
 {
@@ -103,6 +111,4 @@ body
 .forgot a:hover
 {
   color: #fff;
-  background:#ff0047 ;
-  box-shadow: 0 0 10px #ff0047, 0 0 40px #ff0047, 0 0 80px #ff0047;
 }
